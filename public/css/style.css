@@ -1,0 +1,260 @@
+html {
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #333333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+header,
+nav,
+article,
+section,
+aside,
+footer {
+	display: block;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font: 12px/1.5 "微软雅黑", "Microsoft Yahei", "Hiragino Sans GB", tahoma, arial, "宋体";
+}
+
+input,
+select,
+textarea {
+	font-size: 100%;
+}
+
+input {
+	background: no-repeat 0 0 scroll;
+	border: none;
+	outline: medium;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,
+img {
+	border: 0 none;
+}
+
+iframe {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none outside none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000000;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-size: 14px;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.float_left {
+	display: inline;
+	float: left;
+}
+
+.float_right {
+	display: inline;
+	float: right;
+}
+
+.inline_block {
+	display: inline-block;
+}
+
+.position_re {
+	position: relative;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.show_center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text_right {
+	text-align: right;
+}
+
+.block {
+	display: block;
+}
+
+.inline {
+	display: inline;
+}
+
+.display_none {
+	display: none;
+}
+
+a:focus {
+	outline: none;
+}
+
+button,
+img {
+	outline: none;
+}
+
+.mineprize {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #ff5848;
+	color: #fff;
+	padding: 10px;
+	margin: 0 6%;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	cursor: pointer;
+	display: none;
+}
+
+.popup_bg {
+	position: absolute;
+	z-index: 1000;
+	background-color: #000;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.popup {
+	display: none;
+	margin: -80px 0 0 -140px;
+	position: absolute;
+	z-index: 1001;
+	width: 280px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.popup header {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.popup_cont {
+	padding: 10px 10px;
+	line-height: 24px;
+}
+
+.popup footer {
+	overflow: hidden;
+	padding: 5px 0 15px 0;
+}
+
+.popup a.button {
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #00afba;
+	color: #fff;
+	padding: 0;
+	border: 0;
+	float: left;
+	margin: 0 15px;
+}
+
+.popup a.button#cancel {
+	background-color: #ff864f;
+}
+
+.popup a.button#cancel.center {
+	width: 250px;
+	background-color: #00afba;
+}
+
+.popup a.button#cancel.center {
+	width: 250px;
+	background-color: #00afba;
+}
+
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=88);
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	top: 25%;
+	left: 22%;
+	width: 55%;
+	height: 55%;
+	/*border: 10px solid orange;*/
+	background-color: none;
+	z-index: 1002;
+	overflow: auto;
+}
